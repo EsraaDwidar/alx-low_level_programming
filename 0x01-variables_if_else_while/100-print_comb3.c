@@ -9,10 +9,8 @@
 int main(void)
 {
 	int d;
-
-	for (d = 1; d < 90; d++)
-	{
-		for(d = 10; d <= 80; d+=10)
+	do{
+		for (d = 1; d < 90; d++)
 		{
 			putchar((d / 10) + '0');
 			putchar((d % 10) + '0');
@@ -23,6 +21,8 @@ int main(void)
 			}
 		}
 	}
+	while(d != 10)
+		d =+10;
 	putchar('\n');
 
 	return (0);
