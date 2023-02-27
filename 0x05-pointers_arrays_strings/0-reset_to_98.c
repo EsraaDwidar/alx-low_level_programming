@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - check the code 
+ * reset_to_98 - check the code
  * the pointer equal to 98
  * @n: pointer to the variable to update
  */
