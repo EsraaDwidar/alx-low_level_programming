@@ -1,5 +1,1 @@
-#include "main.h"
-int islower(int c)
-{
-	return(c >= 'a' && c <= 'z')
-}
+
