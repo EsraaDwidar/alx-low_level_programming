@@ -3,7 +3,7 @@
 
 /**
  * malloc_checked - Main Entry
- * @b: pointer
+ * @b: input
  * Return: 0
  */
 void *malloc_checked(unsigned int b)
