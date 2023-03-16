@@ -4,7 +4,7 @@
  * malloc_checked - allocates memory using malloc
  * @b: input
  *
- * Return: a p
+ * Return: a pointer
  */
 void *malloc_checked(unsigned int b)
 {
