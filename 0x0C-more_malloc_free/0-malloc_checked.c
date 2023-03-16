@@ -5,6 +5,7 @@
 
 /**
  * malloc check - check the code
+ *@p: is pointer
  *
  * Return: Always 0 - when success
  */
