@@ -4,9 +4,9 @@
 
 /**
   * malloc check - check the code
-  *@p: is pointer
+  *@b: is pointer
   *
-  * Return: Always 0 - when success
+  * Return: Always 0 
   */
 void *malloc_checked(unsigned int b)
 {
