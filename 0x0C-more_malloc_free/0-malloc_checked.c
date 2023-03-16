@@ -1,12 +1,12 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
-  * malloc_checked - Main Entry
-  * @b: input
+  * malloc_checked - Allocates memory
+  * @b: the size to allocate
   *
-  * Return: 0
+  * Return: Nothing.
   */
 void *malloc_checked(unsigned int b)
 {
@@ -18,4 +18,5 @@ void *malloc_checked(unsigned int b)
 		exit(98);
 
 	return (p);
+
 }
