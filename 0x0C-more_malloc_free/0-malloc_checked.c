@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stlib.h>
+#include <stdio.h>
 
 /**
  * malloc_checked - allocates memory to the pointer
