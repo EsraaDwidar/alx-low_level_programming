@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * malloc_checked - allocates memory to the pointer
- * @b: the input
- * Return: a pointer to the allocated memory
+ * malloc_checked - allocates memory to the pointer.
+ * @b: the input amount of bytes
+ * Return: a pointer to the allocated memory.
  */
 
 void *malloc_checked(unsigned int b)
