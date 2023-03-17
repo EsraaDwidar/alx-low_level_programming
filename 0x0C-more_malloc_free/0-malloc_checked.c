@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * malloc_checked - allocates memory 
- * @b: amount of bytes
+ * malloc_checked - allocates memory to the pointer
+ * @b: the input
  *
  * Return: a pointer to the allocated memory
  */
