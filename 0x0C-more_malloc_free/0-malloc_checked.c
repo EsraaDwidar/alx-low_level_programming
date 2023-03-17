@@ -5,14 +5,17 @@
 /**
  * *malloc_checked - Allocates memory
  * @b: the input
+ *
  * Return: a pointer to the allocated memory
  */
 void *malloc_checked(unsigned int b)
 {
-	void *p;
+	void *s;
 
-	p = malloc(b);
-	if (p == NULL)
+	s = malloc(b);
+
+	if (s == NULL)
 		exit(98);
-	return (p);
+
+	return (s);
 }
