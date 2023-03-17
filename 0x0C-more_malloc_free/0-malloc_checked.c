@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
-  * malloc_checked - allocates memory.
-  * @b: amount of bytes
+  * malloc_checked - Allocates memory
+  * @b: the size to allocate
   *
-  * Return: pointer to the allocated memory.
+  * Return: Nothing.
   */
 void *malloc_checked(unsigned int b)
 {
