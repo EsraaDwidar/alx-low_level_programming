@@ -11,13 +11,13 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-        unsigned int i;
+        unsigned int c;
 
 	if (array != NULL && action != NULL)
 	{
-		for (i = 0; i < size; i++)
+		for (c = 0; c < size; c++)
 		{
-			(action) (array[i]);
+			(action) (array[c]);
 		}
 	}
 }
