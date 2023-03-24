@@ -3,6 +3,7 @@
 
 /**
  * array_iterator - function
+ * an carray
  * @array: array
  * @size: size of the array
  * @action: pointer to the function we need to use
@@ -11,13 +12,13 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-        unsigned int c;
+        unsigned int i;
 
-	if (array != NULL && action != NULL)
-	{
-		for (c = 0; c < size; c++)
-		{
-			(action) (array[c]);
-		}
-	}
+        if (array != NULL && action != NULL)
+        {
+                for (i = 0; i < size; i++)
+                {
+                        (action) (array[i]);
+                }
+        }
 }
