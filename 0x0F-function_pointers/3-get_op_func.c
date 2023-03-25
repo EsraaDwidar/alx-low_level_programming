@@ -27,7 +27,7 @@ op_t ops[] = {
 	{
 		if (*(ops[i].op) == *s)
 		{
-			return (ops[i]);
+			return (ops[i].f);
 		}
 	     	i++;
 	}
