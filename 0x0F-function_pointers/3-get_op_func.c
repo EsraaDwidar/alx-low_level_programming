@@ -29,5 +29,6 @@ op_t ops[] = {
 		{
 			return (ops[i].f);
 		}
-	     	i++;
+	     i++;
 	}
+}
