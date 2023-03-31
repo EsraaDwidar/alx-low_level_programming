@@ -22,7 +22,7 @@ int main(void)
 		}
 	}
 	while(d != 10)
-		d =+10;
+		d +=10;
 	putchar('\n');
 
 	return (0);
